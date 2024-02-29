@@ -36,6 +36,7 @@ fun visitTavern() {
         placeOrder(patron, "Dragon breath")
     }
 
+    menuData.forEachIndexed{index, data -> println("$index: $data")}
 
 }
 
